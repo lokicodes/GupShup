@@ -15,7 +15,7 @@ const TextContainer = ({ users }) => (
               <h2>
                 {users.map(({name}) => (
                   <div key={name} className="activeItem">
-                    >> {name.toUpperCase()}
+                    &gt;&gt; {name.toUpperCase()}
                   </div>
                 ))}
               </h2>
